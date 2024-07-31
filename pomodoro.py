@@ -73,7 +73,7 @@ class PomodoroTimer:
     def __init__(self, master):
         self.master              = master
         self.master.title("Pomodoro Timer")
-        self.master.geometry("270x400")  # Adjusted to accommodate activity input
+        self.master.geometry("320x400")  # Adjusted to accommodate activity input
         self.has_encourted_error = False
         self.timer_type          = tk.StringVar(value="duration")
         self.timer_started       = False
